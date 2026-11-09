@@ -1,0 +1,52 @@
+# Python caches and build output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and editor temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Machine-specific settings and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+.aws/
+.ssh/
+.codex/
+.agents/
+.local/
+*.local
+*.local.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+secrets.yaml
+secrets.yml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Public lab evidence (PCAP/PCAPNG, screenshots, logs, SBOM) is not ignored.

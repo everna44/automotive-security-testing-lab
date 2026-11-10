@@ -1,0 +1,86 @@
+PASS 정상 읽기/초기화 쓰기: TX=120#01 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=01 00 00 32 실제=['01 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 정상 읽기/초기화 읽기: TX=120#02 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=02 00 00 32 실제=['02 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 정상 읽기: TX=120#03 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=03 00 00 32 실제=['03 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 정상 읽기/후속 읽기: TX=120#04 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=04 00 00 32 실제=['04 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 정상 쓰기 75/초기화 쓰기: TX=120#05 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=05 00 00 32 실제=['05 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 정상 쓰기 75/초기화 읽기: TX=120#06 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=06 00 00 32 실제=['06 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 정상 쓰기 75: TX=120#07 02 00 4B EFF=False FD=False RTR=False ERR=False 예상=07 00 00 4B 실제=['07 00 00 4B (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 정상 쓰기 75/후속 읽기: TX=120#08 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=08 00 00 4B 실제=['08 00 00 4B (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 경계 쓰기 0/초기화 쓰기: TX=120#09 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=09 00 00 32 실제=['09 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 경계 쓰기 0/초기화 읽기: TX=120#0A 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=0A 00 00 32 실제=['0A 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 경계 쓰기 0: TX=120#0B 02 00 00 EFF=False FD=False RTR=False ERR=False 예상=0B 00 00 00 실제=['0B 00 00 00 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 경계 쓰기 0/후속 읽기: TX=120#0C 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=0C 00 00 00 실제=['0C 00 00 00 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 경계 쓰기 100/초기화 쓰기: TX=120#0D 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=0D 00 00 32 실제=['0D 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 경계 쓰기 100/초기화 읽기: TX=120#0E 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=0E 00 00 32 실제=['0E 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 경계 쓰기 100: TX=120#0F 02 00 64 EFF=False FD=False RTR=False ERR=False 예상=0F 00 00 64 실제=['0F 00 00 64 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 경계 쓰기 100/후속 읽기: TX=120#10 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=10 00 00 64 실제=['10 00 00 64 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 범위 초과 101/초기화 쓰기: TX=120#11 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=11 00 00 32 실제=['11 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 범위 초과 101/초기화 읽기: TX=120#12 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=12 00 00 32 실제=['12 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 범위 초과 101: TX=120#13 02 00 65 EFF=False FD=False RTR=False ERR=False 예상=13 03 00 32 실제=['13 03 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 범위 초과 101/후속 읽기: TX=120#14 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=14 00 00 32 실제=['14 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 범위 초과 65535/초기화 쓰기: TX=120#15 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=15 00 00 32 실제=['15 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 범위 초과 65535/초기화 읽기: TX=120#16 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=16 00 00 32 실제=['16 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 범위 초과 65535: TX=120#17 02 FF FF EFF=False FD=False RTR=False ERR=False 예상=17 03 00 32 실제=['17 03 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 범위 초과 65535/후속 읽기: TX=120#18 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=18 00 00 32 실제=['18 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 미지원 CMD/초기화 쓰기: TX=120#19 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=19 00 00 32 실제=['19 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 미지원 CMD/초기화 읽기: TX=120#1A 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=1A 00 00 32 실제=['1A 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 미지원 CMD: TX=120#1B FF 00 00 EFF=False FD=False RTR=False ERR=False 예상=1B 02 00 32 실제=['1B 02 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 미지원 CMD/후속 읽기: TX=120#1C 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=1C 00 00 32 실제=['1C 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 읽기 VALUE 오류/초기화 쓰기: TX=120#1D 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=1D 00 00 32 실제=['1D 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 읽기 VALUE 오류/초기화 읽기: TX=120#1E 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=1E 00 00 32 실제=['1E 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 읽기 VALUE 오류: TX=120#1F 01 00 01 EFF=False FD=False RTR=False ERR=False 예상=1F 04 00 32 실제=['1F 04 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 읽기 VALUE 오류/후속 읽기: TX=120#20 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=20 00 00 32 실제=['20 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 0/초기화 쓰기: TX=120#21 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=21 00 00 32 실제=['21 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 0/초기화 읽기: TX=120#22 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=22 00 00 32 실제=['22 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 0: TX=120# EFF=False FD=False RTR=False ERR=False 예상=00 01 00 32 실제=['00 01 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 0/후속 읽기: TX=120#24 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=24 00 00 32 실제=['24 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 1/초기화 쓰기: TX=120#25 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=25 00 00 32 실제=['25 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 1/초기화 읽기: TX=120#26 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=26 00 00 32 실제=['26 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 1: TX=120#27 EFF=False FD=False RTR=False ERR=False 예상=27 01 00 32 실제=['27 01 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 1/후속 읽기: TX=120#28 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=28 00 00 32 실제=['28 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 2/초기화 쓰기: TX=120#29 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=29 00 00 32 실제=['29 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 2/초기화 읽기: TX=120#2A 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=2A 00 00 32 실제=['2A 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 2: TX=120#2B FF EFF=False FD=False RTR=False ERR=False 예상=2B 01 00 32 실제=['2B 01 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 2/후속 읽기: TX=120#2C 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=2C 00 00 32 실제=['2C 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 3/초기화 쓰기: TX=120#2D 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=2D 00 00 32 실제=['2D 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 3/초기화 읽기: TX=120#2E 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=2E 00 00 32 실제=['2E 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 3: TX=120#2F FF FF EFF=False FD=False RTR=False ERR=False 예상=2F 01 00 32 실제=['2F 01 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 3/후속 읽기: TX=120#30 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=30 00 00 32 실제=['30 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 5/초기화 쓰기: TX=120#31 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=31 00 00 32 실제=['31 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 5/초기화 읽기: TX=120#32 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=32 00 00 32 실제=['32 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 5: TX=120#33 FF FF FF 00 EFF=False FD=False RTR=False ERR=False 예상=33 01 00 32 실제=['33 01 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 5/후속 읽기: TX=120#34 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=34 00 00 32 실제=['34 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 6/초기화 쓰기: TX=120#35 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=35 00 00 32 실제=['35 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 6/초기화 읽기: TX=120#36 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=36 00 00 32 실제=['36 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 6: TX=120#37 FF FF FF 00 00 EFF=False FD=False RTR=False ERR=False 예상=37 01 00 32 실제=['37 01 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 6/후속 읽기: TX=120#38 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=38 00 00 32 실제=['38 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 7/초기화 쓰기: TX=120#39 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=39 00 00 32 실제=['39 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 7/초기화 읽기: TX=120#3A 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=3A 00 00 32 실제=['3A 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 7: TX=120#3B FF FF FF 00 00 00 EFF=False FD=False RTR=False ERR=False 예상=3B 01 00 32 실제=['3B 01 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 7/후속 읽기: TX=120#3C 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=3C 00 00 32 실제=['3C 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 8/초기화 쓰기: TX=120#3D 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=3D 00 00 32 실제=['3D 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 8/초기화 읽기: TX=120#3E 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=3E 00 00 32 실제=['3E 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 8: TX=120#3F FF FF FF 00 00 00 00 EFF=False FD=False RTR=False ERR=False 예상=3F 01 00 32 실제=['3F 01 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 길이 8/후속 읽기: TX=120#40 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=40 00 00 32 실제=['40 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 미지원 ID/초기화 쓰기: TX=120#41 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=41 00 00 32 실제=['41 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 미지원 ID/초기화 읽기: TX=120#42 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=42 00 00 32 실제=['42 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 미지원 ID: TX=122#43 02 00 4B EFF=False FD=False RTR=False ERR=False 예상=무응답(1초) 실제=무응답(1초) 실패 이유=없음
+PASS 미지원 ID/후속 읽기: TX=120#44 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=44 00 00 32 실제=['44 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS RTR/초기화 쓰기: TX=120#45 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=45 00 00 32 실제=['45 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS RTR/초기화 읽기: TX=120#46 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=46 00 00 32 실제=['46 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS RTR: TX=120#47 02 00 4B EFF=False FD=False RTR=True ERR=False 예상=무응답(1초) 실제=무응답(1초) 실패 이유=없음
+PASS RTR/후속 읽기: TX=120#48 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=48 00 00 32 실제=['48 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 확장 프레임/초기화 쓰기: TX=120#49 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=49 00 00 32 실제=['49 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 확장 프레임/초기화 읽기: TX=120#4A 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=4A 00 00 32 실제=['4A 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 확장 프레임: TX=120#4B 02 00 4B EFF=True FD=False RTR=False ERR=False 예상=무응답(1초) 실제=무응답(1초) 실패 이유=없음
+PASS 확장 프레임/후속 읽기: TX=120#4C 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=4C 00 00 32 실제=['4C 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS CAN FD/초기화 쓰기: TX=120#4D 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=4D 00 00 32 실제=['4D 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS CAN FD/초기화 읽기: TX=120#4E 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=4E 00 00 32 실제=['4E 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS CAN FD: TX=120#4F 02 00 4B EFF=False FD=True RTR=False ERR=False 예상=무응답(1초) 실제=무응답(1초) 실패 이유=없음
+PASS CAN FD/후속 읽기: TX=120#50 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=50 00 00 32 실제=['50 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 오류 프레임/초기화 쓰기: TX=120#51 02 00 32 EFF=False FD=False RTR=False ERR=False 예상=51 00 00 32 실제=['51 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 오류 프레임/초기화 읽기: TX=120#52 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=52 00 00 32 실제=['52 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+PASS 오류 프레임: TX=120#53 02 00 4B EFF=False FD=False RTR=False ERR=True 예상=무응답(1초) 실제=무응답(1초) 실패 이유=없음
+PASS 오류 프레임/후속 읽기: TX=120#54 01 00 00 EFF=False FD=False RTR=False ERR=False 예상=54 00 00 32 실제=['54 00 00 32 (DLC=4, EFF=False, FD=False, RTR=False, ERR=False)'] 실패 이유=없음
+SUMMARY checks=84 failures=0
+CLIENT_EXIT_CODE=0

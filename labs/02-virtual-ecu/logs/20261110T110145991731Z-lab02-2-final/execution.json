@@ -1,0 +1,10 @@
+{
+  "started_utc": "2026-11-10T11:01:45.991874+00:00",
+  "source_sha256": {
+    "labs/02-virtual-ecu/src/ecu.py": "60a7c061524cc0d89a271b2484915478d3f5cb31a08cdc66457730c7f19fbaa6",
+    "labs/02-virtual-ecu/tests/test_client.py": "86ee3ea964c78642f841c2df2b7368c24929d83eed63c27037e8e05c79d8f9a2"
+  },
+  "client_exit_code": 0,
+  "ecu_exit_code": 0,
+  "finished_utc": "2026-11-10T11:03:11.948583+00:00"
+}

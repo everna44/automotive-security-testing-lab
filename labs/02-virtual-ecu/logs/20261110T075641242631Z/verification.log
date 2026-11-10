@@ -1,0 +1,16 @@
+UTC=2026-11-10T07:56:41.242785+00:00 Python=3.12.3 python-can=4.6.1 interface=socketcan channel=vcan0
+TX 120#10 01 00 00
+RX 121#10 00 00 32
+PASS: 기대 응답 일치
+
+PASS: 잘못된 ID 송신 ID=122 extended=False RTR=False DATA=10 01 00 00 / 1초 동안 응답 ID 0x121 미관찰
+PASS: 길이 3 송신 ID=120 extended=False RTR=False DATA=10 01 00 / 1초 동안 응답 ID 0x121 미관찰
+PASS: 미지원 CMD 송신 ID=120 extended=False RTR=False DATA=10 02 00 00 / 1초 동안 응답 ID 0x121 미관찰
+PASS: VALUE 비영 송신 ID=120 extended=False RTR=False DATA=10 01 00 01 / 1초 동안 응답 ID 0x121 미관찰
+PASS: 확장 ID 송신 ID=120 extended=True RTR=False DATA=10 01 00 00 / 1초 동안 응답 ID 0x121 미관찰
+PASS: RTR 송신 ID=120 extended=False RTR=True DATA= / 1초 동안 응답 ID 0x121 미관찰
+잘못된 요청 후 재조회:
+TX 120#10 01 00 00
+RX 121#10 00 00 32
+PASS: 기대 응답 일치
+

@@ -1,114 +1,22 @@
 # Automotive Security Testing Lab
 
-아우토크립트의 자동차 사이버보안 테스트 엔지니어 직무를 준비하기 위한 개인 실습 프로젝트입니다. Linux의 가상 CAN 환경에서 차량 통신 프로토콜을 학습하고, 가상 ECU 보안 테스트, 퍼징(Fuzzing), 소프트웨어 구성 분석(SCA) 및 소프트웨어 자재 명세서(SBOM) 분석으로 확장하는 것을 목표로 합니다.
+자동차 CAN 통신과 보안 테스트를 학습하고 실습 과정과 결과를 정리하는 개인 학습 프로젝트입니다. 가상 CAN 송수신, 소프트웨어 가상 ECU 테스트, 공개 CAN 데이터셋 분석을 진행했습니다.
 
-현재 증적은 가상 CAN 통신과 Wireshark 기본 분석, 소프트웨어 가상 ECU의 읽기·쓰기·입력 검증을 포함합니다. 실제 차량 또는 물리 ECU에 대한 시험, 취약점 발견, 제품 검증을 수행한 프로젝트가 아닙니다. 특정 기업의 공식 프로젝트나 평가 결과를 의미하지 않습니다.
+## 완료한 실습
 
-## 아키텍처와 실습 흐름
-
-현재 Lab 01의 실습 구성입니다. `candump`와 Wireshark는 관찰 도구이며 ECU 역할을 하지 않습니다.
-
-```text
-Linux 사용자 공간                  Linux 커널
-cansend ─── CAN_RAW / SocketCAN ──> vcan0
-                                      │
-candump <──────────────────────────────┤
-Wireshark <────────────────────────────┘
-    └─ PCAP 저장 → CAN ID / 데이터 길이 / Payload 분석
-```
-
-학습 순서는 다음과 같습니다. Lab 02-2의 쓰기·입력 검증까지 완료했으며 Lab 03 공개 데이터셋의 1차 분석과 DoS 상세 분석을 완료했습니다.
-
-```text
-Lab 01: 가상 CAN 송수신 및 분석
-  → Lab 02-1: 최소 소프트웨어 가상 ECU 읽기 테스트 [완료]
-  → Lab 02-2: 가상 ECU 쓰기 및 입력 검증 확장 [완료]
-  → CAN 입력 퍼징과 동작 판정 [예정]
-  → Lab 03: GEM-CAN v3 공개 데이터셋 분석 [1차·DoS 상세 분석 완료]
-  → SCA / SBOM 생성 및 분석 [계획]
-```
-
-## 기술 스택
-
-| 기술 | 용도 | 현재 상태 |
+| Lab | 내용 | 상태 |
 |---|---|---|
-| Ubuntu 24.04 | Linux 실습 환경 | 사용자 기록 기준, 버전 출력 증적 없음 |
-| SocketCAN / vcan | 가상 CAN 인터페이스 | 터미널 화면과 SocketCAN 캡처 확인 |
-| can-utils (`cansend`, `candump`) | CAN 프레임 송수신 | 실행 화면 확인 |
-| Wireshark | 프레임 분석 및 표시 필터(Display filter) | 스크린샷 확인 |
-| PCAP / PCAPNG | 패킷 증적 저장 | Lab 01 PCAP 및 Lab 02-1 PCAPNG 원본 형식·내용 확인 |
-| Python / python-can / SocketCAN | 소프트웨어 가상 ECU 및 별도 읽기 테스트 클라이언트 | `vcan0` 정상 읽기 요청·응답 검증 완료 |
-| Fuzzing / SCA / SBOM 도구 | 입력 변이 및 의존성 분석 | 도구 선정·실습 예정 |
+| [Lab 01 — CAN Network Analysis](labs/01-can-network-analysis/README.md) | SocketCAN·vcan 송수신, Wireshark 프레임 분석 | 완료 |
+| [Lab 02 — Virtual ECU](labs/02-virtual-ecu/README.md) | Python 가상 ECU 읽기·쓰기 및 입력 검증 | 완료 |
+| [Lab 03 — GEM-CAN Analysis](labs/03-gem-can-analysis/README.md) | 공개 데이터셋 구조·분포 확인, 정상·DoS 트래픽 비교 | 완료 |
 
-## Lab별 진행 상태
+Lab 01은 CAN ID·데이터 길이·Payload를 캡처에서 확인했습니다. Lab 02는 최종 실행에서 21개 케이스·84개 검사 PASS, 실패 0을 기록했습니다. Lab 03은 정상 주행 100,000행과 공격 세션 43,444행을 분석하고 그래프와 DoS 상세 분석을 정리했습니다.
 
-| Lab | 내용 | 상태 | 문서 |
-|---|---|---|---|
-| 01 | CAN Network Analysis | 기본 송수신·분석 증적 확보 및 문서화, 문서 절차의 재실행은 미검증 | [Lab 01](labs/01-can-network-analysis/README.md) |
-| 02-1 | 최소 Virtual ECU 읽기 테스트 | 구현 및 정상 읽기 요청·응답 증적 검증 완료 | [Lab 02-1](labs/02-virtual-ecu/README.md) |
-| 02-2 | 가상 ECU 쓰기 및 입력 검증 확장 | 최종 21개 케이스 / 84개 검사 PASS, 실패 0 기록 | [Lab 02-2](labs/02-virtual-ecu/README.md#lab-02-2-최종-검증) |
-| 03 | GEM-CAN v3 공개 차량 CAN 데이터 분석 | 1차·DoS 상세 분석 완료, 원본 문서 불일치 기록 | [Lab 03](labs/03-gem-can-analysis/README.md) |
-| 후속 | Fuzzing | 계획 | 구현 및 문서 없음 |
-| 후속 | SCA / SBOM | 계획 | 구현 및 문서 없음 |
+## 실행 방법과 결과
 
-## 저장소 구조
+각 Lab README에 환경 구성, 실행 방법, 분석 결과와 원본 증적 링크를 정리했습니다.
 
-아래는 현재 파일만 표시한 구조입니다.
+- Lab 01·02: Linux, SocketCAN/vcan, can-utils, Wireshark, Python/python-can
+- Lab 03: Python, Matplotlib, NumPy를 이용한 오프라인 데이터 분석
 
-```text
-.
-├── README.md
-├── AGENTS.md
-├── .gitignore
-└── labs/
-    ├── 01-can-network-analysis/
-    │   ├── README.md
-    │   ├── captures/
-    │   │   └── lab01-can-basic-communication.pcap
-    │   └── screenshots/
-    │       ├── 01-can-frame-analysis.png
-    │       ├── 02-can-id-filtering.png
-    │       └── lab01-can-communication.png
-    ├── 03-gem-can-analysis/
-    │   ├── README.md
-    │   ├── metadata/
-    │   ├── data/raw/          # 로컬 원본, Git 제외
-    │   ├── src/               # 다운로드·분석 코드
-    │   ├── reports/           # 실제 분석 결과
-    │   ├── figures/           # Matplotlib 그래프
-    │   └── dos-deep-dive/     # DoS 상세 분석·결과
-    └── 02-virtual-ecu/
-        ├── README.md
-        ├── .gitignore
-        ├── requirements.txt
-        ├── src/
-        ├── tests/
-        ├── captures/
-        ├── logs/
-        └── screenshots/
-```
-
-[Lab 02-1](labs/02-virtual-ecu/README.md)은 Python과 python-can의 SocketCAN 백엔드로 `vcan0`에서 읽기 요청을 처리하는 최소 소프트웨어 가상 ECU와 별도 테스트 클라이언트를 구현했습니다. UDS/ISO-TP가 아닌 실습용 단일 프레임 규격이며, Lab 01의 프레임에 요청·응답 의미를 소급해서 부여하지 않습니다.
-
-정상 읽기 요청 `0x120 / 10 01 00 00`에 대한 응답 `0x121 / 10 00 00 32`를 PCAPNG 원본에서 확인했습니다. 두 프레임의 DLC는 4이며 SEQ 일치, 성공 STATUS `0x00`, 실습 규격상 값 50이 기대값과 일치합니다. Wireshark 스크린샷도 원본과 대조했습니다. 기존 텍스트 로그의 정상 교환과 Payload는 같지만 캡처 시각이 달라 별도 실행의 증적으로 구분합니다. 기존 읽기 전용 로그의 비정상 입력 후 응답 미관찰 기록은 이후 쓰기·입력 검증 결과와 별도 실행입니다. Lab 02-2는 최종 실행 로그에서 21개 케이스 / 84개 검사 PASS, 실패 0 및 클라이언트 종료 코드 0을 기록했습니다. 별도 사용자 PCAPNG에서는 쓰기 60 → 범위 초과 101 거부 → 읽기 60 유지가 확인되었습니다. 상세 범위와 한계는 Lab 02 문서를 참고합니다. Lab 03은 GEM-CAN v3 원본 무결성 확인, 기본 통계·그래프 및 [DoS 상세 분석](labs/03-gem-can-analysis/dos-deep-dive/README.md)을 완료했으며, 퍼징·SCA/SBOM은 예정 단계입니다.
-
-## 실행 및 증적
-
-- [Lab 01 환경 구성과 재현 절차](labs/01-can-network-analysis/README.md#재현-절차)
-- [원본 PCAP 다운로드](labs/01-can-network-analysis/captures/lab01-can-basic-communication.pcap)
-- [CAN 프레임 분석 화면](labs/01-can-network-analysis/screenshots/01-can-frame-analysis.png)
-- [CAN ID 필터 화면](labs/01-can-network-analysis/screenshots/02-can-id-filtering.png)
-- [가상 CAN 송수신 터미널 화면](labs/01-can-network-analysis/screenshots/lab01-can-communication.png)
-
-저장소 루트에서 기존 증적을 여는 명령입니다. GUI 환경과 Wireshark 설치가 필요합니다.
-
-```bash
-wireshark labs/01-can-network-analysis/captures/lab01-can-basic-communication.pcap
-```
-
-원본은 **PCAP v2.4 / SocketCAN / 마이크로초 정밀도**이며 PCAPNG가 아닙니다. 터미널 화면과 PCAP의 일부 Payload가 다르므로 동일 실행의 증적으로 단정하지 않습니다. 상세 데이터와 해석 한계는 Lab 01 문서에 기록했습니다.
-
-Lab 02-1의 실행 절차, 검증 범위와 미실시 항목은 [Lab 02-1 문서](labs/02-virtual-ecu/README.md)에 기록했습니다.
-
-- [Lab 02-1 정상 읽기 PCAPNG](labs/02-virtual-ecu/captures/lab02-ecu-read-test.pcapng)
-- [Lab 02-1 Wireshark 요청·응답 화면](labs/02-virtual-ecu/screenshots/01-ecu-request-response.png)
+코드·캡처·로그·그래프는 각 `labs/` 폴더에 있습니다. Lab 03의 데이터셋 출처와 다운로드 방법은 해당 README에서 확인할 수 있습니다.

@@ -1,0 +1,6 @@
+session,group,dlc_bytes,frames
+normal,Normal,8,100000
+attack,Brake Tampering,8,663
+attack,Steering Tampering,8,662
+attack,Normal,8,1039
+attack,DoS,8,41080

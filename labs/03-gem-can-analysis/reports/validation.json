@@ -1,0 +1,52 @@
+{
+  "checks": [
+    {
+      "path": "reports/summary.json",
+      "sha256": "0c0d68ff1f2647b859d3f858d8dbe775a2dbc6291fa0db6b99f5f75798a4a1e4",
+      "rerun_identical": true
+    },
+    {
+      "path": "reports/can_id_distribution.csv",
+      "sha256": "a64656b7fe625ea0e2ca23d64a2cb4876a5a08debdba478e64d9cf136e526100",
+      "rerun_identical": true
+    },
+    {
+      "path": "reports/dlc_distribution.csv",
+      "sha256": "c69c3a862fa9236cf5fc44a591dd585c129c402d33e4ae6d979acb71aaf369ba",
+      "rerun_identical": true
+    },
+    {
+      "path": "reports/time_bins.csv",
+      "sha256": "1592d17aca9eb9cb03c726cac444bcdfc76ba66d965ff8c686679270fedf0b97",
+      "rerun_identical": true
+    },
+    {
+      "path": "reports/group_distribution.csv",
+      "sha256": "30d8b28a8a06ac46cb34d428698be51d8b936bf56259fae7a5740cea5c028bf4",
+      "rerun_identical": true
+    },
+    {
+      "path": "figures/message_counts_over_time.png",
+      "sha256": "b585e131b9a3ad1fcf004e19c4d40c28209b34097996296e71e994818efa3202",
+      "rerun_identical": true
+    },
+    {
+      "path": "figures/normal_attack_distribution.png",
+      "sha256": "b69edbf7a86cfa0809e05225d27b80fcbec3496947aeb4ffe49814265bcc062f",
+      "rerun_identical": true
+    },
+    {
+      "path": "figures/can_id_share.png",
+      "sha256": "75a61418ccb93f277a978aeb874ec44c5a625a56012fe3c2e6654c7304f36582",
+      "rerun_identical": true
+    },
+    {
+      "path": "figures/can_id_frequency.png",
+      "sha256": "f72c93bb8a64e9110fde4d293a01c8c86df092ccca6343f82a569a502171b18e",
+      "rerun_identical": true
+    }
+  ],
+  "official_md5_and_size_rechecked": true,
+  "relative_document_links_valid": true,
+  "aggregate_counts_conserved": true
+}

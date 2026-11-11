@@ -1,0 +1,28 @@
+{
+  "analysis_date": "2026-11-11",
+  "existing_files_checked": 55,
+  "existing_file_changes": [],
+  "rerun_path": "/tmp/gem-dos-reproduce-final",
+  "byte_identical_outputs": {
+    "normal_id_intervals.png": true,
+    "time_rates.csv": true,
+    "phase_rates.csv": true,
+    "adjacent_gaps.csv": true,
+    "per_id_intervals.csv": true,
+    "summary.json": true,
+    "boundary_gaps.csv": true,
+    "normal_id_timeline.png": true,
+    "session_rates.png": true,
+    "dos_rates.png": true
+  },
+  "checks": [
+    "CSV/raw equality 143444 records (analysis assertions)",
+    "phase counts sum to 43444 / label0 1039",
+    "all time-bin counts conserved; rates multiplied by exposure recover counts",
+    "18FF70F9 actual largest adjacent gap 20009.248 ms",
+    "PNG normal_id_intervals and dos_rates visually inspected"
+  ],
+  "analysis_code_sha256": "12fa63b542ca7eade4f479298a307d5d4f73902fa8a79e7f33792ecdcc6f1a01",
+  "preservation_note": "Snapshot excludes .git, .venv, __pycache__; original raw files, prior Lab 03 results and Lab 01/02 included. No commit/push.",
+  "broken_relative_links": []
+}

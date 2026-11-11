@@ -1,0 +1,3 @@
+# Python csv writer uses CRLF; preserve generated result bytes.
+reports/*.csv -text whitespace=cr-at-eol
+dos-deep-dive/results/*.csv -text whitespace=cr-at-eol

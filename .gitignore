@@ -50,3 +50,9 @@ secrets.yml
 Thumbs.db
 
 # Public lab evidence (PCAP/PCAPNG, screenshots, logs, SBOM) is not ignored.
+
+# Lab 03: downloaded originals and extracted dataset remain local.
+/labs/03-gem-can-analysis/data/raw/
+
+# Lab 03 scratch files; keep published reports and evidence visible.
+/labs/03-gem-can-analysis/**/*.tmp

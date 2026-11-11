@@ -1,0 +1,77 @@
+{
+  "verified_at_utc": "2026-11-10T12:15:45.264173+00:00",
+  "source": "https://zenodo.org/records/19161139",
+  "files": [
+    {
+      "file": "GEM_CAN_Dataset_R2.zip",
+      "bytes": 2438377,
+      "md5": "03f7a86ed05da9ab282f2886bf9b3ca3",
+      "sha256": "4cf59d12bd12986473f66e8942cf977872ca8a7b80ab4c25c99a368707334c3a",
+      "match": true
+    },
+    {
+      "file": "GEM_CAN_metadata.json",
+      "bytes": 3312,
+      "md5": "68aa81594b2a5efdd02206394f72708b",
+      "sha256": "2a3de66ffb82a68a2c22584c3262fd101b7acfa9944f5e53ea388fed71a49fb7",
+      "match": true
+    },
+    {
+      "file": "README.md",
+      "bytes": 7410,
+      "md5": "0a28f4cb4f852206b5264a9dfa2c1e0a",
+      "sha256": "41855491701d5fae2a48f1f4457ba22e240e0f9f9725d29572b233b11c81a930",
+      "match": true
+    }
+  ],
+  "zip_members": [
+    {
+      "path": "GEM_CAN_Dataset_R2/",
+      "bytes": 0
+    },
+    {
+      "path": "GEM_CAN_Dataset_R2/trc_to_csv_convertor.py",
+      "bytes": 3296
+    },
+    {
+      "path": "GEM_CAN_Dataset_R2/.DS_Store",
+      "bytes": 6148
+    },
+    {
+      "path": "GEM_CAN_Dataset_R2/data_preprocessing.py",
+      "bytes": 18409
+    },
+    {
+      "path": "GEM_CAN_Dataset_R2/GEM_CAN_metadata.json",
+      "bytes": 3407
+    },
+    {
+      "path": "GEM_CAN_Dataset_R2/GEM_Normal_Driving_Raw_Labeled.csv",
+      "bytes": 4513487
+    },
+    {
+      "path": "GEM_CAN_Dataset_R2/README.md",
+      "bytes": 7226
+    },
+    {
+      "path": "GEM_CAN_Dataset_R2/PCAN_Files/",
+      "bytes": 0
+    },
+    {
+      "path": "GEM_CAN_Dataset_R2/PCAN_Files/GEM_Attack_Scenario_Raw.trc",
+      "bytes": 2867720
+    },
+    {
+      "path": "GEM_CAN_Dataset_R2/PCAN_Files/.DS_Store",
+      "bytes": 6148
+    },
+    {
+      "path": "GEM_CAN_Dataset_R2/PCAN_Files/GEM_Normal_Driving_Raw.json",
+      "bytes": 17188895
+    },
+    {
+      "path": "GEM_CAN_Dataset_R2/GEM_Attack_Scenario_Raw_Labeled.csv",
+      "bytes": 1638603
+    }
+  ]
+}

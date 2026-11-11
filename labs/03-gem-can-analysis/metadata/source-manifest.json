@@ -1,0 +1,38 @@
+{
+  "record_url": "https://zenodo.org/records/19161139",
+  "version_from_record_page": "v3",
+  "checked_on": "2026-11-10",
+  "license": {
+    "id": "cc-by-nc-3.0"
+  },
+  "files": [
+    {
+      "id": "47930453-27b6-4366-9ae3-1346462a9b46",
+      "key": "GEM_CAN_Dataset_R2.zip",
+      "size": 2438377,
+      "checksum": "md5:03f7a86ed05da9ab282f2886bf9b3ca3",
+      "links": {
+        "self": "https://zenodo.org/api/records/19161139/files/GEM_CAN_Dataset_R2.zip/content"
+      }
+    },
+    {
+      "id": "5255601a-4e70-4015-8af3-698953e2fc1c",
+      "key": "GEM_CAN_metadata.json",
+      "size": 3312,
+      "checksum": "md5:68aa81594b2a5efdd02206394f72708b",
+      "links": {
+        "self": "https://zenodo.org/api/records/19161139/files/GEM_CAN_metadata.json/content"
+      }
+    },
+    {
+      "id": "cba8f488-61f0-4362-96dd-971a47129f4f",
+      "key": "README.md",
+      "size": 7410,
+      "checksum": "md5:0a28f4cb4f852206b5264a9dfa2c1e0a",
+      "links": {
+        "self": "https://zenodo.org/api/records/19161139/files/README.md/content"
+      }
+    }
+  ],
+  "status": "downloaded; official sizes and MD5 verified; see ../reports/integrity.json"
+}

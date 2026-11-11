@@ -1,0 +1,6 @@
+session,group,frames,percent_of_session
+normal,Normal,100000,100.0
+attack,Brake Tampering,663,1.5261025688242336
+attack,Steering Tampering,662,1.523800754994936
+attack,Normal,1039,2.3915845686400883
+attack,DoS,41080,94.55851210754074

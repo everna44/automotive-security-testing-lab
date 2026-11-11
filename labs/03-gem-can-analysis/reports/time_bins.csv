@@ -1,0 +1,494 @@
+session,group,start_s,bin_width_s,frames,last_bin_partial
+normal,Normal,0,1,277,False
+normal,Normal,1,1,282,False
+normal,Normal,2,1,282,False
+normal,Normal,3,1,282,False
+normal,Normal,4,1,278,False
+normal,Normal,5,1,279,False
+normal,Normal,6,1,282,False
+normal,Normal,7,1,282,False
+normal,Normal,8,1,282,False
+normal,Normal,9,1,281,False
+normal,Normal,10,1,282,False
+normal,Normal,11,1,280,False
+normal,Normal,12,1,277,False
+normal,Normal,13,1,282,False
+normal,Normal,14,1,282,False
+normal,Normal,15,1,280,False
+normal,Normal,16,1,277,False
+normal,Normal,17,1,282,False
+normal,Normal,18,1,282,False
+normal,Normal,19,1,280,False
+normal,Normal,20,1,282,False
+normal,Normal,21,1,282,False
+normal,Normal,22,1,282,False
+normal,Normal,23,1,281,False
+normal,Normal,24,1,276,False
+normal,Normal,25,1,282,False
+normal,Normal,26,1,282,False
+normal,Normal,27,1,277,False
+normal,Normal,28,1,280,False
+normal,Normal,29,1,282,False
+normal,Normal,30,1,282,False
+normal,Normal,31,1,282,False
+normal,Normal,32,1,280,False
+normal,Normal,33,1,282,False
+normal,Normal,34,1,282,False
+normal,Normal,35,1,281,False
+normal,Normal,36,1,278,False
+normal,Normal,37,1,282,False
+normal,Normal,38,1,277,False
+normal,Normal,39,1,279,False
+normal,Normal,40,1,282,False
+normal,Normal,41,1,282,False
+normal,Normal,42,1,282,False
+normal,Normal,43,1,280,False
+normal,Normal,44,1,282,False
+normal,Normal,45,1,282,False
+normal,Normal,46,1,282,False
+normal,Normal,47,1,282,False
+normal,Normal,48,1,275,False
+normal,Normal,49,1,282,False
+normal,Normal,50,1,277,False
+normal,Normal,51,1,282,False
+normal,Normal,52,1,282,False
+normal,Normal,53,1,280,False
+normal,Normal,54,1,282,False
+normal,Normal,55,1,282,False
+normal,Normal,56,1,282,False
+normal,Normal,57,1,280,False
+normal,Normal,58,1,282,False
+normal,Normal,59,1,281,False
+normal,Normal,60,1,278,False
+normal,Normal,61,1,275,False
+normal,Normal,62,1,282,False
+normal,Normal,63,1,282,False
+normal,Normal,64,1,118,False
+normal,Normal,65,1,102,False
+normal,Normal,66,1,102,False
+normal,Normal,67,1,102,False
+normal,Normal,68,1,102,False
+normal,Normal,69,1,102,False
+normal,Normal,70,1,97,False
+normal,Normal,71,1,102,False
+normal,Normal,72,1,99,False
+normal,Normal,73,1,100,False
+normal,Normal,74,1,102,False
+normal,Normal,75,1,102,False
+normal,Normal,76,1,248,False
+normal,Normal,77,1,280,False
+normal,Normal,78,1,282,False
+normal,Normal,79,1,282,False
+normal,Normal,80,1,279,False
+normal,Normal,81,1,280,False
+normal,Normal,82,1,282,False
+normal,Normal,83,1,282,False
+normal,Normal,84,1,278,False
+normal,Normal,85,1,283,False
+normal,Normal,86,1,282,False
+normal,Normal,87,1,280,False
+normal,Normal,88,1,282,False
+normal,Normal,89,1,282,False
+normal,Normal,90,1,282,False
+normal,Normal,91,1,280,False
+normal,Normal,92,1,277,False
+normal,Normal,93,1,282,False
+normal,Normal,94,1,282,False
+normal,Normal,95,1,277,False
+normal,Normal,96,1,280,False
+normal,Normal,97,1,282,False
+normal,Normal,98,1,282,False
+normal,Normal,99,1,282,False
+normal,Normal,100,1,282,False
+normal,Normal,101,1,280,False
+normal,Normal,102,1,282,False
+normal,Normal,103,1,282,False
+normal,Normal,104,1,277,False
+normal,Normal,105,1,282,False
+normal,Normal,106,1,279,False
+normal,Normal,107,1,278,False
+normal,Normal,108,1,282,False
+normal,Normal,109,1,282,False
+normal,Normal,110,1,282,False
+normal,Normal,111,1,281,False
+normal,Normal,112,1,281,False
+normal,Normal,113,1,281,False
+normal,Normal,114,1,282,False
+normal,Normal,115,1,282,False
+normal,Normal,116,1,275,False
+normal,Normal,117,1,282,False
+normal,Normal,118,1,277,False
+normal,Normal,119,1,282,False
+normal,Normal,120,1,282,False
+normal,Normal,121,1,280,False
+normal,Normal,122,1,282,False
+normal,Normal,123,1,282,False
+normal,Normal,124,1,282,False
+normal,Normal,125,1,282,False
+normal,Normal,126,1,280,False
+normal,Normal,127,1,282,False
+normal,Normal,128,1,277,False
+normal,Normal,129,1,278,False
+normal,Normal,130,1,281,False
+normal,Normal,131,1,282,False
+normal,Normal,132,1,282,False
+normal,Normal,133,1,280,False
+normal,Normal,134,1,282,False
+normal,Normal,135,1,282,False
+normal,Normal,136,1,280,False
+normal,Normal,137,1,282,False
+normal,Normal,138,1,282,False
+normal,Normal,139,1,282,False
+normal,Normal,140,1,280,False
+normal,Normal,141,1,274,False
+normal,Normal,142,1,280,False
+normal,Normal,143,1,281,False
+normal,Normal,144,1,282,False
+normal,Normal,145,1,282,False
+normal,Normal,146,1,282,False
+normal,Normal,147,1,282,False
+normal,Normal,148,1,280,False
+normal,Normal,149,1,282,False
+normal,Normal,150,1,280,False
+normal,Normal,151,1,282,False
+normal,Normal,152,1,277,False
+normal,Normal,153,1,277,False
+normal,Normal,154,1,280,False
+normal,Normal,155,1,282,False
+normal,Normal,156,1,282,False
+normal,Normal,157,1,282,False
+normal,Normal,158,1,282,False
+normal,Normal,159,1,282,False
+normal,Normal,160,1,280,False
+normal,Normal,161,1,282,False
+normal,Normal,162,1,282,False
+normal,Normal,163,1,278,False
+normal,Normal,164,1,281,False
+normal,Normal,165,1,275,False
+normal,Normal,166,1,282,False
+normal,Normal,167,1,282,False
+normal,Normal,168,1,282,False
+normal,Normal,169,1,281,False
+normal,Normal,170,1,281,False
+normal,Normal,171,1,282,False
+normal,Normal,172,1,282,False
+normal,Normal,173,1,282,False
+normal,Normal,174,1,281,False
+normal,Normal,175,1,276,False
+normal,Normal,176,1,282,False
+normal,Normal,177,1,277,False
+normal,Normal,178,1,282,False
+normal,Normal,179,1,280,False
+normal,Normal,180,1,282,False
+normal,Normal,181,1,282,False
+normal,Normal,182,1,282,False
+normal,Normal,183,1,280,False
+normal,Normal,184,1,282,False
+normal,Normal,185,1,282,False
+normal,Normal,186,1,277,False
+normal,Normal,187,1,280,False
+normal,Normal,188,1,282,False
+normal,Normal,189,1,277,False
+normal,Normal,190,1,282,False
+normal,Normal,191,1,282,False
+normal,Normal,192,1,282,False
+normal,Normal,193,1,282,False
+normal,Normal,194,1,282,False
+normal,Normal,195,1,282,False
+normal,Normal,196,1,280,False
+normal,Normal,197,1,279,False
+normal,Normal,198,1,280,False
+normal,Normal,199,1,282,False
+normal,Normal,200,1,280,False
+normal,Normal,201,1,279,False
+normal,Normal,202,1,282,False
+normal,Normal,203,1,280,False
+normal,Normal,204,1,282,False
+normal,Normal,205,1,282,False
+normal,Normal,206,1,282,False
+normal,Normal,207,1,282,False
+normal,Normal,208,1,280,False
+normal,Normal,209,1,277,False
+normal,Normal,210,1,282,False
+normal,Normal,211,1,282,False
+normal,Normal,212,1,279,False
+normal,Normal,213,1,277,False
+normal,Normal,214,1,282,False
+normal,Normal,215,1,282,False
+normal,Normal,216,1,282,False
+normal,Normal,217,1,282,False
+normal,Normal,218,1,282,False
+normal,Normal,219,1,280,False
+normal,Normal,220,1,277,False
+normal,Normal,221,1,281,False
+normal,Normal,222,1,281,False
+normal,Normal,223,1,282,False
+normal,Normal,224,1,278,False
+normal,Normal,225,1,279,False
+normal,Normal,226,1,282,False
+normal,Normal,227,1,282,False
+normal,Normal,228,1,282,False
+normal,Normal,229,1,280,False
+normal,Normal,230,1,282,False
+normal,Normal,231,1,279,False
+normal,Normal,232,1,280,False
+normal,Normal,233,1,281,False
+normal,Normal,234,1,281,False
+normal,Normal,235,1,282,False
+normal,Normal,236,1,278,False
+normal,Normal,237,1,281,False
+normal,Normal,238,1,282,False
+normal,Normal,239,1,281,False
+normal,Normal,240,1,282,False
+normal,Normal,241,1,281,False
+normal,Normal,242,1,282,False
+normal,Normal,243,1,277,False
+normal,Normal,244,1,282,False
+normal,Normal,245,1,282,False
+normal,Normal,246,1,282,False
+normal,Normal,247,1,280,False
+normal,Normal,248,1,277,False
+normal,Normal,249,1,281,False
+normal,Normal,250,1,282,False
+normal,Normal,251,1,282,False
+normal,Normal,252,1,282,False
+normal,Normal,253,1,282,False
+normal,Normal,254,1,277,False
+normal,Normal,255,1,282,False
+normal,Normal,256,1,280,False
+normal,Normal,257,1,282,False
+normal,Normal,258,1,282,False
+normal,Normal,259,1,282,False
+normal,Normal,260,1,277,False
+normal,Normal,261,1,282,False
+normal,Normal,262,1,282,False
+normal,Normal,263,1,282,False
+normal,Normal,264,1,280,False
+normal,Normal,265,1,279,False
+normal,Normal,266,1,280,False
+normal,Normal,267,1,280,False
+normal,Normal,268,1,282,False
+normal,Normal,269,1,282,False
+normal,Normal,270,1,282,False
+normal,Normal,271,1,282,False
+normal,Normal,272,1,275,False
+normal,Normal,273,1,282,False
+normal,Normal,274,1,282,False
+normal,Normal,275,1,281,False
+normal,Normal,276,1,281,False
+normal,Normal,277,1,277,False
+normal,Normal,278,1,282,False
+normal,Normal,279,1,282,False
+normal,Normal,280,1,280,False
+normal,Normal,281,1,282,False
+normal,Normal,282,1,282,False
+normal,Normal,283,1,280,False
+normal,Normal,284,1,277,False
+normal,Normal,285,1,282,False
+normal,Normal,286,1,282,False
+normal,Normal,287,1,282,False
+normal,Normal,288,1,276,False
+normal,Normal,289,1,281,False
+normal,Normal,290,1,282,False
+normal,Normal,291,1,282,False
+normal,Normal,292,1,280,False
+normal,Normal,293,1,282,False
+normal,Normal,294,1,280,False
+normal,Normal,295,1,282,False
+normal,Normal,296,1,282,False
+normal,Normal,297,1,282,False
+normal,Normal,298,1,279,False
+normal,Normal,299,1,277,False
+normal,Normal,300,1,278,False
+normal,Normal,301,1,282,False
+normal,Normal,302,1,282,False
+normal,Normal,303,1,282,False
+normal,Normal,304,1,280,False
+normal,Normal,305,1,282,False
+normal,Normal,306,1,282,False
+normal,Normal,307,1,268,False
+normal,Normal,308,1,102,False
+normal,Normal,309,1,102,False
+normal,Normal,310,1,102,False
+normal,Normal,311,1,97,False
+normal,Normal,312,1,100,False
+normal,Normal,313,1,99,False
+normal,Normal,314,1,178,False
+normal,Normal,315,1,279,False
+normal,Normal,316,1,282,False
+normal,Normal,317,1,282,False
+normal,Normal,318,1,280,False
+normal,Normal,319,1,282,False
+normal,Normal,320,1,282,False
+normal,Normal,321,1,282,False
+normal,Normal,322,1,278,False
+normal,Normal,323,1,279,False
+normal,Normal,324,1,281,False
+normal,Normal,325,1,278,False
+normal,Normal,326,1,282,False
+normal,Normal,327,1,280,False
+normal,Normal,328,1,282,False
+normal,Normal,329,1,282,False
+normal,Normal,330,1,282,False
+normal,Normal,331,1,280,False
+normal,Normal,332,1,282,False
+normal,Normal,333,1,282,False
+normal,Normal,334,1,277,False
+normal,Normal,335,1,280,False
+normal,Normal,336,1,281,False
+normal,Normal,337,1,278,False
+normal,Normal,338,1,282,False
+normal,Normal,339,1,282,False
+normal,Normal,340,1,280,False
+normal,Normal,341,1,282,False
+normal,Normal,342,1,282,False
+normal,Normal,343,1,282,False
+normal,Normal,344,1,282,False
+normal,Normal,345,1,277,False
+normal,Normal,346,1,280,False
+normal,Normal,347,1,282,False
+normal,Normal,348,1,280,False
+normal,Normal,349,1,279,False
+normal,Normal,350,1,281,False
+normal,Normal,351,1,281,False
+normal,Normal,352,1,282,False
+normal,Normal,353,1,282,False
+normal,Normal,354,1,280,False
+normal,Normal,355,1,282,False
+normal,Normal,356,1,279,False
+normal,Normal,357,1,280,False
+normal,Normal,358,1,282,False
+normal,Normal,359,1,280,False
+normal,Normal,360,1,277,False
+normal,Normal,361,1,281,False
+normal,Normal,362,1,282,False
+normal,Normal,363,1,282,False
+normal,Normal,364,1,280,False
+normal,Normal,365,1,282,False
+normal,Normal,366,1,282,False
+normal,Normal,367,1,282,False
+normal,Normal,368,1,63,True
+attack,Brake Tampering,0,1,90,False
+attack,Steering Tampering,0,1,90,False
+attack,Normal,0,1,102,False
+attack,DoS,0,1,0,False
+attack,Brake Tampering,1,1,90,False
+attack,Steering Tampering,1,1,90,False
+attack,Normal,1,1,102,False
+attack,DoS,1,1,0,False
+attack,Brake Tampering,2,1,90,False
+attack,Steering Tampering,2,1,90,False
+attack,Normal,2,1,102,False
+attack,DoS,2,1,0,False
+attack,Brake Tampering,3,1,89,False
+attack,Steering Tampering,3,1,89,False
+attack,Normal,3,1,98,False
+attack,DoS,3,1,0,False
+attack,Brake Tampering,4,1,90,False
+attack,Steering Tampering,4,1,90,False
+attack,Normal,4,1,101,False
+attack,DoS,4,1,0,False
+attack,Brake Tampering,5,1,90,False
+attack,Steering Tampering,5,1,90,False
+attack,Normal,5,1,102,False
+attack,DoS,5,1,343,False
+attack,Brake Tampering,6,1,90,False
+attack,Steering Tampering,6,1,90,False
+attack,Normal,6,1,102,False
+attack,DoS,6,1,1000,False
+attack,Brake Tampering,7,1,32,False
+attack,Steering Tampering,7,1,32,False
+attack,Normal,7,1,35,False
+attack,DoS,7,1,1645,False
+attack,Brake Tampering,8,1,0,False
+attack,Steering Tampering,8,1,0,False
+attack,Normal,8,1,0,False
+attack,DoS,8,1,2373,False
+attack,Brake Tampering,9,1,0,False
+attack,Steering Tampering,9,1,0,False
+attack,Normal,9,1,0,False
+attack,DoS,9,1,3000,False
+attack,Brake Tampering,10,1,0,False
+attack,Steering Tampering,10,1,0,False
+attack,Normal,10,1,0,False
+attack,DoS,10,1,2997,False
+attack,Brake Tampering,11,1,0,False
+attack,Steering Tampering,11,1,0,False
+attack,Normal,11,1,0,False
+attack,DoS,11,1,3003,False
+attack,Brake Tampering,12,1,0,False
+attack,Steering Tampering,12,1,0,False
+attack,Normal,12,1,0,False
+attack,DoS,12,1,3000,False
+attack,Brake Tampering,13,1,0,False
+attack,Steering Tampering,13,1,0,False
+attack,Normal,13,1,0,False
+attack,DoS,13,1,3000,False
+attack,Brake Tampering,14,1,0,False
+attack,Steering Tampering,14,1,0,False
+attack,Normal,14,1,0,False
+attack,DoS,14,1,3000,False
+attack,Brake Tampering,15,1,0,False
+attack,Steering Tampering,15,1,0,False
+attack,Normal,15,1,0,False
+attack,DoS,15,1,3000,False
+attack,Brake Tampering,16,1,0,False
+attack,Steering Tampering,16,1,0,False
+attack,Normal,16,1,0,False
+attack,DoS,16,1,2997,False
+attack,Brake Tampering,17,1,0,False
+attack,Steering Tampering,17,1,0,False
+attack,Normal,17,1,0,False
+attack,DoS,17,1,3000,False
+attack,Brake Tampering,18,1,0,False
+attack,Steering Tampering,18,1,0,False
+attack,Normal,18,1,0,False
+attack,DoS,18,1,3003,False
+attack,Brake Tampering,19,1,0,False
+attack,Steering Tampering,19,1,0,False
+attack,Normal,19,1,0,False
+attack,DoS,19,1,3000,False
+attack,Brake Tampering,20,1,0,False
+attack,Steering Tampering,20,1,0,False
+attack,Normal,20,1,0,False
+attack,DoS,20,1,1946,False
+attack,Brake Tampering,21,1,0,False
+attack,Steering Tampering,21,1,0,False
+attack,Normal,21,1,0,False
+attack,DoS,21,1,773,False
+attack,Brake Tampering,22,1,0,False
+attack,Steering Tampering,22,1,0,False
+attack,Normal,22,1,0,False
+attack,DoS,22,1,0,False
+attack,Brake Tampering,23,1,0,False
+attack,Steering Tampering,23,1,0,False
+attack,Normal,23,1,0,False
+attack,DoS,23,1,0,False
+attack,Brake Tampering,24,1,0,False
+attack,Steering Tampering,24,1,0,False
+attack,Normal,24,1,0,False
+attack,DoS,24,1,0,False
+attack,Brake Tampering,25,1,0,False
+attack,Steering Tampering,25,1,0,False
+attack,Normal,25,1,0,False
+attack,DoS,25,1,0,False
+attack,Brake Tampering,26,1,0,False
+attack,Steering Tampering,26,1,0,False
+attack,Normal,26,1,0,False
+attack,DoS,26,1,0,False
+attack,Brake Tampering,27,1,2,False
+attack,Steering Tampering,27,1,1,False
+attack,Normal,27,1,86,False
+attack,DoS,27,1,0,False
+attack,Brake Tampering,28,1,0,False
+attack,Steering Tampering,28,1,0,False
+attack,Normal,28,1,102,False
+attack,DoS,28,1,0,False
+attack,Brake Tampering,29,1,0,False
+attack,Steering Tampering,29,1,0,False
+attack,Normal,29,1,102,False
+attack,DoS,29,1,0,False
+attack,Brake Tampering,30,1,0,True
+attack,Steering Tampering,30,1,0,True
+attack,Normal,30,1,5,True
+attack,DoS,30,1,0,True

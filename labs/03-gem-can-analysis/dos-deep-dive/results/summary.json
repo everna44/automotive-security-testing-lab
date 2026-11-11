@@ -1,0 +1,104 @@
+{
+  "python": "3.12.3",
+  "numpy": "2.5.4",
+  "matplotlib": "3.10.8",
+  "unit": "CSV ms, integer microseconds internally; CSV / 1000 = seconds",
+  "interval_quantile": "numpy percentile linear; intervals require >=2 records within same phase",
+  "checks": {
+    "normal": {
+      "file": "GEM_Normal_Driving_Raw_Labeled.csv",
+      "sha256": "e5ef6e81883702edbe4e772dea3894de3ccdd112d2928df3f3d362aa5ba4f1aa",
+      "rows": 100000,
+      "raw_alignment_rows": 100000,
+      "min_ms": 127876.661,
+      "max_ms": 496106.804,
+      "span_s": 368.230143,
+      "first_last_equals_min_max": true,
+      "timestamp_reversals": 0,
+      "duplicate_timestamp_rows": 0,
+      "duplicate_full_rows": 0,
+      "duplicate_signature_rows": 0,
+      "timestamp_decimal_places": {
+        "3": 90229,
+        "2": 8774,
+        "1": 903,
+        "0": 94
+      },
+      "unique_signature_rows": 100000,
+      "all_rows_per_s": 271.56929409768605,
+      "unique_signatures_per_s": 271.56929409768605
+    },
+    "attack": {
+      "file": "GEM_Attack_Scenario_Raw_Labeled.csv",
+      "sha256": "b0ac27048130f6acc121d2ac49d565200331a923ab4f4ab94eb3c7792309f92d",
+      "rows": 43444,
+      "raw_alignment_rows": 43444,
+      "min_ms": 8.209,
+      "max_ms": 30060.459,
+      "span_s": 30.05225,
+      "first_last_equals_min_max": true,
+      "timestamp_reversals": 79,
+      "duplicate_timestamp_rows": 21363,
+      "duplicate_full_rows": 21363,
+      "duplicate_signature_rows": 21363,
+      "timestamp_decimal_places": {
+        "3": 38386,
+        "2": 5017,
+        "1": 39,
+        "0": 2
+      },
+      "unique_signature_rows": 22081,
+      "all_rows_per_s": 1445.6155529120115,
+      "unique_signatures_per_s": 734.7536374148358
+    }
+  },
+  "dos": {
+    "first_offset_s": 5.665652,
+    "last_offset_s": 21.781624,
+    "span_s": 16.115972,
+    "rows": 41080,
+    "unique_timestamps": 19717,
+    "duplicates": 21363,
+    "records_per_s": 2549.0240365272416,
+    "unique_records_per_s": 1223.4446671910327,
+    "all_intervals": {
+      "frames": 41080,
+      "intervals": 41079,
+      "median_ms": 0.0,
+      "p95_ms": 1.999,
+      "max_ms": 2.435
+    },
+    "unique_intervals": {
+      "frames": 19717,
+      "intervals": 19716,
+      "median_ms": 0.995,
+      "p95_ms": 2.004,
+      "max_ms": 2.435
+    },
+    "max_timestamp_multiplicity": 6,
+    "raw_directions": {
+      "other_Rx": 2364,
+      "DoS_Tx": 41080
+    }
+  },
+  "metadata_intervals_ms": {
+    "external": {
+      "DoS Flooding": 1,
+      "Brake Tampering": 11,
+      "Steering Tampering": 11
+    },
+    "internal": {
+      "DoS Flooding": 1.1,
+      "Brake Tampering": 11100,
+      "Steering Tampering": 11100
+    }
+  },
+  "source_sha256": {
+    "data/raw/README.md": "41855491701d5fae2a48f1f4457ba22e240e0f9f9725d29572b233b11c81a930",
+    "data/raw/GEM_CAN_metadata.json": "2a3de66ffb82a68a2c22584c3262fd101b7acfa9944f5e53ea388fed71a49fb7",
+    "data/raw/extracted/GEM_CAN_Dataset_R2/README.md": "71f7ebc1f159db23d3f5cda96cc089db177723c086aa29a7164a629e6aa2a4c0",
+    "data/raw/extracted/GEM_CAN_Dataset_R2/GEM_CAN_metadata.json": "25055a71078187f5b181ef1365021bbb4cd430482fe6570c6e642a47d65650bd",
+    "data/raw/extracted/GEM_CAN_Dataset_R2/PCAN_Files/GEM_Attack_Scenario_Raw.trc": "cfb83ef2b18c08091fa6abc1d6abd4053e224230b188781b475a6e7523a78ad3",
+    "data/raw/extracted/GEM_CAN_Dataset_R2/PCAN_Files/GEM_Normal_Driving_Raw.json": "0e504241a483ee86cf0627d1e184b04187bc1eb8b93f3889374526c948b3bb65"
+  }
+}

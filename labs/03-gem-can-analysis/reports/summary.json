@@ -1,0 +1,356 @@
+{
+  "python": "3.12.3",
+  "matplotlib": "3.10.8",
+  "timestamp_unit": "ms, verified against all raw records; seconds = CSV / 1000",
+  "files": {
+    "normal": {
+      "filename": "GEM_Normal_Driving_Raw_Labeled.csv",
+      "sha256": "e5ef6e81883702edbe4e772dea3894de3ccdd112d2928df3f3d362aa5ba4f1aa",
+      "columns": [
+        "timestamp",
+        "arbitration_id",
+        "dlc",
+        "data0",
+        "data1",
+        "data2",
+        "data3",
+        "data4",
+        "data5",
+        "data6",
+        "data7",
+        "label"
+      ],
+      "rows": 100000,
+      "missing_by_column": {
+        "timestamp": 0,
+        "arbitration_id": 0,
+        "dlc": 0,
+        "data0": 0,
+        "data1": 0,
+        "data2": 0,
+        "data3": 0,
+        "data4": 0,
+        "data5": 0,
+        "data6": 0,
+        "data7": 0,
+        "label": 0
+      },
+      "duplicate_full_rows": 0,
+      "duplicate_time_id_dlc_payload": 0,
+      "invalid_fields": {
+        "id_format": 0,
+        "id_range": 0,
+        "dlc": 0,
+        "payload_byte": 0,
+        "label": 0,
+        "nonfinite_timestamp": 0,
+        "payload_length_mismatch": 0
+      },
+      "raw_alignment_rows": 100000,
+      "labels": {
+        "0": 100000
+      },
+      "attack_types": null,
+      "id_text_widths": {
+        "8": 100000
+      },
+      "ids_within_11bit_value": 0,
+      "ids_above_11bit_value": 100000,
+      "unique_ids": 13,
+      "dlc": {
+        "8": 100000
+      },
+      "timestamp_raw_min_ms": "127876.661",
+      "timestamp_raw_max_ms": "496106.804",
+      "timestamp_decimal_places": {
+        "3": 90229,
+        "2": 8774,
+        "1": 903,
+        "0": 94
+      },
+      "span_s": 368.230143,
+      "mean_frames_per_s_over_span": 271.56929409768605,
+      "timestamp_reversals": 0,
+      "duplicate_timestamps": 0,
+      "groups": {
+        "Normal": {
+          "rows": 100000,
+          "percent_of_file": 100.0,
+          "ids": {
+            "18FF00F9": 31383,
+            "18FF70F9": 31383,
+            "18FF0513": 3650,
+            "18FF0413": 3650,
+            "18FF0313": 3650,
+            "18FF0213": 3650,
+            "18FF0113": 3650,
+            "18FF7513": 3651,
+            "18FF7413": 3651,
+            "18FF7313": 3651,
+            "18FF7213": 3651,
+            "18FF7113": 3651,
+            "18FECA13": 729
+          },
+          "unique_payloads": 17675,
+          "duplicate_full_rows": 0,
+          "max_row_multiplicity": 1,
+          "payload_diversity_by_id": {
+            "18FF00F9": 745,
+            "18FF70F9": 3709,
+            "18FF0513": 1,
+            "18FF0413": 3599,
+            "18FF0313": 63,
+            "18FF0213": 30,
+            "18FF0113": 1796,
+            "18FF7513": 1,
+            "18FF7413": 3651,
+            "18FF7313": 280,
+            "18FF7213": 156,
+            "18FF7113": 3643,
+            "18FECA13": 2
+          },
+          "first_ms": "127876.661",
+          "last_ms": "496106.804",
+          "median_sorted_interarrival_ms": 1.01,
+          "top_payloads": [
+            [
+              "05 00 D9 BD FD FF FF 00",
+              4089
+            ],
+            [
+              "00 00 00 00 00 00 00 00",
+              3653
+            ],
+            [
+              "00 00 00 00 00 03 00 00",
+              3650
+            ]
+          ]
+        }
+      }
+    },
+    "attack": {
+      "filename": "GEM_Attack_Scenario_Raw_Labeled.csv",
+      "sha256": "b0ac27048130f6acc121d2ac49d565200331a923ab4f4ab94eb3c7792309f92d",
+      "columns": [
+        "timestamp",
+        "arbitration_id",
+        "dlc",
+        "data0",
+        "data1",
+        "data2",
+        "data3",
+        "data4",
+        "data5",
+        "data6",
+        "data7",
+        "label",
+        "Attack_Type"
+      ],
+      "rows": 43444,
+      "missing_by_column": {
+        "timestamp": 0,
+        "arbitration_id": 0,
+        "dlc": 0,
+        "data0": 0,
+        "data1": 0,
+        "data2": 0,
+        "data3": 0,
+        "data4": 0,
+        "data5": 0,
+        "data6": 0,
+        "data7": 0,
+        "label": 0,
+        "Attack_Type": 0
+      },
+      "duplicate_full_rows": 21363,
+      "duplicate_time_id_dlc_payload": 21363,
+      "invalid_fields": {
+        "id_format": 0,
+        "id_range": 0,
+        "dlc": 0,
+        "payload_byte": 0,
+        "label": 0,
+        "nonfinite_timestamp": 0,
+        "label_type_mismatch": 0,
+        "payload_length_mismatch": 0
+      },
+      "raw_alignment_rows": 43444,
+      "labels": {
+        "1": 42405,
+        "0": 1039
+      },
+      "attack_types": {
+        "Brake Tampering": 663,
+        "Steering Tampering": 662,
+        "Normal": 1039,
+        "DoS": 41080
+      },
+      "id_text_widths": {
+        "8": 2364,
+        "1": 41080
+      },
+      "ids_within_11bit_value": 41080,
+      "ids_above_11bit_value": 2364,
+      "unique_ids": 14,
+      "dlc": {
+        "8": 43444
+      },
+      "timestamp_raw_min_ms": "8.209",
+      "timestamp_raw_max_ms": "30060.459",
+      "timestamp_decimal_places": {
+        "3": 38386,
+        "2": 5017,
+        "1": 39,
+        "0": 2
+      },
+      "span_s": 30.05225,
+      "mean_frames_per_s_over_span": 1445.6155529120115,
+      "timestamp_reversals": 79,
+      "duplicate_timestamps": 21363,
+      "groups": {
+        "Brake Tampering": {
+          "rows": 663,
+          "percent_of_file": 1.5261025688242336,
+          "ids": {
+            "18FF00F9": 663
+          },
+          "unique_payloads": 1,
+          "duplicate_full_rows": 0,
+          "max_row_multiplicity": 1,
+          "payload_diversity_by_id": {
+            "18FF00F9": 1
+          },
+          "first_ms": "8.209",
+          "last_ms": "27369.979",
+          "median_sorted_interarrival_ms": 11.055,
+          "top_payloads": [
+            [
+              "05 00 64 5B 0A 00 FF 00",
+              663
+            ]
+          ]
+        },
+        "Steering Tampering": {
+          "rows": 662,
+          "percent_of_file": 1.523800754994936,
+          "ids": {
+            "18FF70F9": 662
+          },
+          "unique_payloads": 1,
+          "duplicate_full_rows": 0,
+          "max_row_multiplicity": 1,
+          "payload_diversity_by_id": {
+            "18FF70F9": 1
+          },
+          "first_ms": "8.769",
+          "last_ms": "27371.125",
+          "median_sorted_interarrival_ms": 11.052,
+          "top_payloads": [
+            [
+              "05 00 C5 85 FA FF 7A 00",
+              662
+            ]
+          ]
+        },
+        "Normal": {
+          "rows": 1039,
+          "percent_of_file": 2.3915845686400883,
+          "ids": {
+            "18FF0513": 102,
+            "18FF0413": 102,
+            "18FF0313": 102,
+            "18FF0213": 101,
+            "18FF0113": 102,
+            "18FF7513": 102,
+            "18FF7413": 102,
+            "18FF7313": 102,
+            "18FF7213": 102,
+            "18FF7113": 102,
+            "18FECA13": 20
+          },
+          "unique_payloads": 345,
+          "duplicate_full_rows": 0,
+          "max_row_multiplicity": 1,
+          "payload_diversity_by_id": {
+            "18FF0513": 1,
+            "18FF0413": 102,
+            "18FF0313": 12,
+            "18FF0213": 8,
+            "18FF0113": 48,
+            "18FF7513": 1,
+            "18FF7413": 102,
+            "18FF7313": 14,
+            "18FF7213": 6,
+            "18FF7113": 49,
+            "18FECA13": 2
+          },
+          "first_ms": "37.68",
+          "last_ms": "30060.459",
+          "median_sorted_interarrival_ms": 1.1115,
+          "top_payloads": [
+            [
+              "00 00 00 00 00 03 00 00",
+              102
+            ],
+            [
+              "00 00 00 00 00 00 00 00",
+              102
+            ],
+            [
+              "00 00 00 00 42 00 47 00",
+              92
+            ]
+          ]
+        },
+        "DoS": {
+          "rows": 41080,
+          "percent_of_file": 94.55851210754074,
+          "ids": {
+            "00000000": 41080
+          },
+          "unique_payloads": 1,
+          "duplicate_full_rows": 21363,
+          "max_row_multiplicity": 6,
+          "payload_diversity_by_id": {
+            "00000000": 1
+          },
+          "first_ms": "5665.652",
+          "last_ms": "21781.624",
+          "median_sorted_interarrival_ms": 0.0,
+          "top_payloads": [
+            [
+              "00 00 00 00 00 00 00 00",
+              41080
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "total_rows": 143444,
+  "total_labels": {
+    "0": 101039,
+    "1": 42405
+  },
+  "attack_trace_directions": {
+    "Rx": 2364,
+    "Tx": 41080
+  },
+  "dos_trace_directions": {
+    "Tx": 41080
+  },
+  "metadata_intervals_ms": {
+    "standalone": {
+      "DoS Flooding": 1,
+      "Brake Tampering": 11,
+      "Steering Tampering": 11
+    },
+    "inside_zip": {
+      "DoS Flooding": 1.1,
+      "Brake Tampering": 11100,
+      "Steering Tampering": 11100
+    }
+  },
+  "analysis_source_sha256": "eb3fda0f5553b6e8020b910bf71cbe9a87938fc4f4728cec91bc865866d592e4"
+}

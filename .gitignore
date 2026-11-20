@@ -59,3 +59,9 @@ Thumbs.db
 
 # AutoHack original dataset
 /labs/04-autohack-analysis/data/raw/
+
+# Lab 05 local caches, reruns, and original reports with absolute paths.
+/labs/05-python-sca/.cache/
+/labs/05-python-sca/evidence/repro-*/
+/labs/05-python-sca/evidence/20261120-054107/grype*.json
+/labs/05-python-sca/evidence/20261120-054107/sbom*.cdx.json

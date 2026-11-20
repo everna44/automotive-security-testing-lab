@@ -1,0 +1,266 @@
+{
+  "python": "3.12.3",
+  "archive_sha256": "7b6112b98f775e2b66ca3aea229754ab1eb30b11020343a674f4c5723d570a51",
+  "member": "Autohack2025_Dataset/Interface/test/autohack_test_both_interface.csv",
+  "columns": [
+    "Interface",
+    "Timestamp",
+    "Arbitration_ID",
+    "DLC",
+    "Data",
+    "Label"
+  ],
+  "selection": "C-CAN; first up to 10000 rows per label in file order",
+  "scanned_rows": 1765382,
+  "scanned_prefix_labels": {
+    "Normal": 1661835,
+    "Spoofing_UDS_B_706_B17": 94,
+    "Spoofing_UDS_B_702_B4": 120,
+    "Spoofing_UDS_B_700_B34": 129,
+    "Spoofing": 16500,
+    "Replay": 36408,
+    "Fuzzing": 24337,
+    "DoS": 25576,
+    "Spoofing_UDS_RightRadar_755": 84,
+    "Spoofing_UDS_LeftRadar_7B7": 84,
+    "Spoofing_UDS_Steering_7D4": 22,
+    "Spoofing_UDS_FrontCam_7C4": 22,
+    "Spoofing_UDS_P_7E0_B4": 87,
+    "Spoofing_UDS_P_7E0_B6": 84
+  },
+  "scanned_prefix_interfaces": {
+    "C-CAN": 1079797,
+    "B-CAN": 77859,
+    "P-CAN": 607726
+  },
+  "groups": {
+    "Normal": {
+      "count": 10000,
+      "first_timestamp": "0.00059",
+      "last_timestamp": "3.57647",
+      "unique_ids": 108,
+      "dlc_counts": {
+        "8": 7926,
+        "5": 358,
+        "6": 411,
+        "4": 719,
+        "7": 535,
+        "3": 36,
+        "2": 15
+      },
+      "unique_payloads": 2773,
+      "payload_length_mismatch_lines": [],
+      "negative_gaps": 0,
+      "zero_gaps": 0,
+      "gap_seconds": {
+        "min": 8e-05,
+        "median": 0.00024,
+        "p95": 0.00093,
+        "max": 0.00216
+      },
+      "top_ids": [
+        [
+          "329",
+          358
+        ],
+        [
+          "340",
+          358
+        ],
+        [
+          "251",
+          358
+        ],
+        [
+          "2B0",
+          358
+        ],
+        [
+          "164",
+          358
+        ],
+        [
+          "130",
+          358
+        ],
+        [
+          "140",
+          358
+        ],
+        [
+          "240",
+          357
+        ],
+        [
+          "356",
+          357
+        ],
+        [
+          "366",
+          357
+        ]
+      ],
+      "examples": [
+        {
+          "source_line": 2,
+          "Interface": "C-CAN",
+          "Timestamp": "0.00059",
+          "Arbitration_ID": "329",
+          "DLC": "8",
+          "Data": "40 B2 81 14 12 20 00 14",
+          "Label": "Normal"
+        },
+        {
+          "source_line": 3,
+          "Interface": "C-CAN",
+          "Timestamp": "0.00121",
+          "Arbitration_ID": "441",
+          "DLC": "5",
+          "Data": "00 63 71 E2 00",
+          "Label": "Normal"
+        },
+        {
+          "source_line": 4,
+          "Interface": "C-CAN",
+          "Timestamp": "0.00144",
+          "Arbitration_ID": "340",
+          "DLC": "8",
+          "Data": "04 00 00 24 95 01 8F 09",
+          "Label": "Normal"
+        }
+      ]
+    },
+    "Fuzzing": {
+      "count": 10000,
+      "first_timestamp": "357.4183",
+      "last_timestamp": "372.46784",
+      "unique_ids": 2033,
+      "dlc_counts": {
+        "0": 1133,
+        "8": 1129,
+        "6": 1109,
+        "5": 1084,
+        "2": 1103,
+        "4": 1147,
+        "7": 1102,
+        "1": 1109,
+        "3": 1084
+      },
+      "unique_payloads": 7999,
+      "payload_length_mismatch_lines": [],
+      "negative_gaps": 0,
+      "zero_gaps": 0,
+      "gap_seconds": {
+        "min": 0.00119,
+        "median": 0.00147,
+        "p95": 0.00187,
+        "max": 0.01855
+      },
+      "top_ids": [
+        [
+          "3F5",
+          17
+        ],
+        [
+          "219",
+          16
+        ],
+        [
+          "0DB",
+          14
+        ],
+        [
+          "42C",
+          13
+        ],
+        [
+          "236",
+          13
+        ],
+        [
+          "5B7",
+          13
+        ],
+        [
+          "41C",
+          13
+        ],
+        [
+          "246",
+          12
+        ],
+        [
+          "15B",
+          12
+        ],
+        [
+          "714",
+          12
+        ]
+      ],
+      "examples": [
+        {
+          "source_line": 1671964,
+          "Interface": "C-CAN",
+          "Timestamp": "357.4183",
+          "Arbitration_ID": "164",
+          "DLC": "0",
+          "Data": "",
+          "Label": "Fuzzing"
+        },
+        {
+          "source_line": 1671972,
+          "Interface": "C-CAN",
+          "Timestamp": "357.41965",
+          "Arbitration_ID": "7EE",
+          "DLC": "8",
+          "Data": "88 C9 DD CB 5E 72 EF 3E",
+          "Label": "Fuzzing"
+        },
+        {
+          "source_line": 1671983,
+          "Interface": "C-CAN",
+          "Timestamp": "357.42099",
+          "Arbitration_ID": "6BE",
+          "DLC": "6",
+          "Data": "9F AE 80 E6 70 D5",
+          "Label": "Fuzzing"
+        }
+      ]
+    }
+  },
+  "interval_histogram": {
+    "bins": [
+      "<0",
+      "[0,0.1) ms",
+      "[0.1,0.5) ms",
+      "[0.5,1) ms",
+      "[1,5) ms",
+      "[5,10) ms",
+      "[10,100) ms",
+      ">=100 ms"
+    ],
+    "counts": {
+      "Normal": [
+        0,
+        1,
+        8360,
+        1285,
+        353,
+        0,
+        0,
+        0
+      ],
+      "Fuzzing": [
+        0,
+        0,
+        0,
+        0,
+        9997,
+        1,
+        1,
+        0
+      ]
+    }
+  }
+}

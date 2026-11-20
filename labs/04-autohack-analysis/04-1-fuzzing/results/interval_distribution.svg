@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="430" viewBox="0 0 1050 430">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="28" font-family="sans-serif" font-size="18">C-CAN: consecutive same-label observed gaps</text>
+<text x="15" y="52" font-family="sans-serif" font-size="12">Gap count (9999 per label)</text>
+<path d="M 85 330.0 H 1020" stroke="#ddd"/>
+<text x="77" y="334.0" text-anchor="end" font-size="12">0</text>
+<path d="M 85 277.0 H 1020" stroke="#ddd"/>
+<text x="77" y="281.0" text-anchor="end" font-size="12">1999</text>
+<path d="M 85 224.0 H 1020" stroke="#ddd"/>
+<text x="77" y="228.0" text-anchor="end" font-size="12">3999</text>
+<path d="M 85 171.0 H 1020" stroke="#ddd"/>
+<text x="77" y="175.0" text-anchor="end" font-size="12">5998</text>
+<path d="M 85 118.0 H 1020" stroke="#ddd"/>
+<text x="77" y="122.0" text-anchor="end" font-size="12">7998</text>
+<path d="M 85 65.0 H 1020" stroke="#ddd"/>
+<text x="77" y="69.0" text-anchor="end" font-size="12">9997</text>
+<text x="650" y="50" fill="#2471a3" font-family="sans-serif">Normal</text>
+<rect x="85.0" y="330.0" width="43.0125" height="0.0" fill="#2471a3"><title>Normal &lt;0: 0</title></rect>
+<rect x="201.25" y="329.9734920476143" width="43.0125" height="0.026507952385715714" fill="#2471a3"><title>Normal [0,0.1) ms: 1</title></rect>
+<rect x="317.5" y="108.39351805541662" width="43.0125" height="221.60648194458338" fill="#2471a3"><title>Normal [0.1,0.5) ms: 8360</title></rect>
+<rect x="433.75" y="295.9372811843553" width="43.0125" height="34.06271881564469" fill="#2471a3"><title>Normal [0.5,1) ms: 1285</title></rect>
+<rect x="550.0" y="320.64269280784237" width="43.0125" height="9.357307192157647" fill="#2471a3"><title>Normal [1,5) ms: 353</title></rect>
+<rect x="666.25" y="330.0" width="43.0125" height="0.0" fill="#2471a3"><title>Normal [5,10) ms: 0</title></rect>
+<rect x="782.5" y="330.0" width="43.0125" height="0.0" fill="#2471a3"><title>Normal [10,100) ms: 0</title></rect>
+<rect x="898.75" y="330.0" width="43.0125" height="0.0" fill="#2471a3"><title>Normal &gt;=100 ms: 0</title></rect>
+<text x="810" y="50" fill="#dc7633" font-family="sans-serif">Fuzzing</text>
+<rect x="131.5" y="330.0" width="43.0125" height="0.0" fill="#dc7633"><title>Fuzzing &lt;0: 0</title></rect>
+<rect x="247.75" y="330.0" width="43.0125" height="0.0" fill="#dc7633"><title>Fuzzing [0,0.1) ms: 0</title></rect>
+<rect x="364.0" y="330.0" width="43.0125" height="0.0" fill="#dc7633"><title>Fuzzing [0.1,0.5) ms: 0</title></rect>
+<rect x="480.25" y="330.0" width="43.0125" height="0.0" fill="#dc7633"><title>Fuzzing [0.5,1) ms: 0</title></rect>
+<rect x="596.5" y="65.0" width="43.0125" height="265.0" fill="#dc7633"><title>Fuzzing [1,5) ms: 9997</title></rect>
+<rect x="712.75" y="329.9734920476143" width="43.0125" height="0.026507952385715714" fill="#dc7633"><title>Fuzzing [5,10) ms: 1</title></rect>
+<rect x="829.0" y="329.9734920476143" width="43.0125" height="0.026507952385715714" fill="#dc7633"><title>Fuzzing [10,100) ms: 1</title></rect>
+<rect x="945.25" y="330.0" width="43.0125" height="0.0" fill="#dc7633"><title>Fuzzing &gt;=100 ms: 0</title></rect>
+<text x="131.5" y="350" transform="rotate(25 131.5 350)" font-family="sans-serif" font-size="11">&lt;0</text>
+<text x="247.75" y="350" transform="rotate(25 247.75 350)" font-family="sans-serif" font-size="11">[0,0.1) ms</text>
+<text x="364.0" y="350" transform="rotate(25 364.0 350)" font-family="sans-serif" font-size="11">[0.1,0.5) ms</text>
+<text x="480.25" y="350" transform="rotate(25 480.25 350)" font-family="sans-serif" font-size="11">[0.5,1) ms</text>
+<text x="596.5" y="350" transform="rotate(25 596.5 350)" font-family="sans-serif" font-size="11">[1,5) ms</text>
+<text x="712.75" y="350" transform="rotate(25 712.75 350)" font-family="sans-serif" font-size="11">[5,10) ms</text>
+<text x="829.0" y="350" transform="rotate(25 829.0 350)" font-family="sans-serif" font-size="11">[10,100) ms</text>
+<text x="945.25" y="350" transform="rotate(25 945.25 350)" font-family="sans-serif" font-size="11">&gt;=100 ms</text>
+</svg>

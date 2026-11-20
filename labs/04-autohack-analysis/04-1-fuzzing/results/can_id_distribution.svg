@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="430" viewBox="0 0 1050 430">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="28" font-family="sans-serif" font-size="18">C-CAN: top 15 Normal IDs + all other IDs</text>
+<text x="15" y="52" font-family="sans-serif" font-size="12">Frame count (each label n=10000)</text>
+<path d="M 85 330.0 H 1020" stroke="#ddd"/>
+<text x="77" y="334.0" text-anchor="end" font-size="12">0</text>
+<path d="M 85 277.0 H 1020" stroke="#ddd"/>
+<text x="77" y="281.0" text-anchor="end" font-size="12">1986</text>
+<path d="M 85 224.0 H 1020" stroke="#ddd"/>
+<text x="77" y="228.0" text-anchor="end" font-size="12">3972</text>
+<path d="M 85 171.0 H 1020" stroke="#ddd"/>
+<text x="77" y="175.0" text-anchor="end" font-size="12">5957</text>
+<path d="M 85 118.0 H 1020" stroke="#ddd"/>
+<text x="77" y="122.0" text-anchor="end" font-size="12">7943</text>
+<path d="M 85 65.0 H 1020" stroke="#ddd"/>
+<text x="77" y="69.0" text-anchor="end" font-size="12">9929</text>
+<text x="650" y="50" fill="#2471a3" font-family="sans-serif">Normal</text>
+<rect x="85.0" y="320.4451606405479" width="21.50625" height="9.55483935945211" fill="#2471a3"><title>Normal 329: 358</title></rect>
+<rect x="143.125" y="320.4451606405479" width="21.50625" height="9.55483935945211" fill="#2471a3"><title>Normal 340: 358</title></rect>
+<rect x="201.25" y="320.4451606405479" width="21.50625" height="9.55483935945211" fill="#2471a3"><title>Normal 251: 358</title></rect>
+<rect x="259.375" y="320.4451606405479" width="21.50625" height="9.55483935945211" fill="#2471a3"><title>Normal 2B0: 358</title></rect>
+<rect x="317.5" y="320.4451606405479" width="21.50625" height="9.55483935945211" fill="#2471a3"><title>Normal 164: 358</title></rect>
+<rect x="375.625" y="320.4451606405479" width="21.50625" height="9.55483935945211" fill="#2471a3"><title>Normal 130: 358</title></rect>
+<rect x="433.75" y="320.4451606405479" width="21.50625" height="9.55483935945211" fill="#2471a3"><title>Normal 140: 358</title></rect>
+<rect x="491.875" y="320.4718501359654" width="21.50625" height="9.528149864034646" fill="#2471a3"><title>Normal 240: 357</title></rect>
+<rect x="550.0" y="320.4718501359654" width="21.50625" height="9.528149864034646" fill="#2471a3"><title>Normal 356: 357</title></rect>
+<rect x="608.125" y="320.4718501359654" width="21.50625" height="9.528149864034646" fill="#2471a3"><title>Normal 366: 357</title></rect>
+<rect x="666.25" y="320.4718501359654" width="21.50625" height="9.528149864034646" fill="#2471a3"><title>Normal 367: 357</title></rect>
+<rect x="724.375" y="320.4718501359654" width="21.50625" height="9.528149864034646" fill="#2471a3"><title>Normal 368: 357</title></rect>
+<rect x="782.5" y="320.4718501359654" width="21.50625" height="9.528149864034646" fill="#2471a3"><title>Normal 220: 357</title></rect>
+<rect x="840.625" y="320.4718501359654" width="21.50625" height="9.528149864034646" fill="#2471a3"><title>Normal 153: 357</title></rect>
+<rect x="898.75" y="320.4718501359654" width="21.50625" height="9.528149864034646" fill="#2471a3"><title>Normal 260: 357</title></rect>
+<rect x="956.875" y="206.21412025380198" width="21.50625" height="123.785879746198" fill="#2471a3"><title>Normal Other IDs: 4638</title></rect>
+<text x="810" y="50" fill="#dc7633" font-family="sans-serif">Fuzzing</text>
+<rect x="108.25" y="329.9199315137476" width="21.50625" height="0.08006848625239198" fill="#dc7633"><title>Fuzzing 329: 3</title></rect>
+<rect x="166.375" y="329.9199315137476" width="21.50625" height="0.08006848625239198" fill="#dc7633"><title>Fuzzing 340: 3</title></rect>
+<rect x="224.5" y="329.9199315137476" width="21.50625" height="0.08006848625239198" fill="#dc7633"><title>Fuzzing 251: 3</title></rect>
+<rect x="282.625" y="329.9199315137476" width="21.50625" height="0.08006848625239198" fill="#dc7633"><title>Fuzzing 2B0: 3</title></rect>
+<rect x="340.75" y="329.9466210091651" width="21.50625" height="0.05337899083492799" fill="#dc7633"><title>Fuzzing 164: 2</title></rect>
+<rect x="398.875" y="329.9199315137476" width="21.50625" height="0.08006848625239198" fill="#dc7633"><title>Fuzzing 130: 3</title></rect>
+<rect x="457.0" y="329.8665525229127" width="21.50625" height="0.13344747708731997" fill="#dc7633"><title>Fuzzing 140: 5</title></rect>
+<rect x="515.125" y="329.81317353207777" width="21.50625" height="0.18682646792224797" fill="#dc7633"><title>Fuzzing 240: 7</title></rect>
+<rect x="573.25" y="329.8398630274952" width="21.50625" height="0.16013697250478395" fill="#dc7633"><title>Fuzzing 356: 6</title></rect>
+<rect x="631.375" y="329.8665525229127" width="21.50625" height="0.13344747708731997" fill="#dc7633"><title>Fuzzing 366: 5</title></rect>
+<rect x="689.5" y="329.89324201833017" width="21.50625" height="0.10675798166985598" fill="#dc7633"><title>Fuzzing 367: 4</title></rect>
+<rect x="747.625" y="329.81317353207777" width="21.50625" height="0.18682646792224797" fill="#dc7633"><title>Fuzzing 368: 7</title></rect>
+<rect x="805.75" y="329.8398630274952" width="21.50625" height="0.16013697250478395" fill="#dc7633"><title>Fuzzing 220: 6</title></rect>
+<rect x="863.875" y="329.7864840366603" width="21.50625" height="0.21351596333971196" fill="#dc7633"><title>Fuzzing 153: 8</title></rect>
+<rect x="922.0" y="329.8398630274952" width="21.50625" height="0.16013697250478395" fill="#dc7633"><title>Fuzzing 260: 6</title></rect>
+<rect x="980.125" y="65.0" width="21.50625" height="265.0" fill="#dc7633"><title>Fuzzing Other IDs: 9929</title></rect>
+<text x="108.25" y="350" transform="rotate(25 108.25 350)" font-family="sans-serif" font-size="11">329</text>
+<text x="166.375" y="350" transform="rotate(25 166.375 350)" font-family="sans-serif" font-size="11">340</text>
+<text x="224.5" y="350" transform="rotate(25 224.5 350)" font-family="sans-serif" font-size="11">251</text>
+<text x="282.625" y="350" transform="rotate(25 282.625 350)" font-family="sans-serif" font-size="11">2B0</text>
+<text x="340.75" y="350" transform="rotate(25 340.75 350)" font-family="sans-serif" font-size="11">164</text>
+<text x="398.875" y="350" transform="rotate(25 398.875 350)" font-family="sans-serif" font-size="11">130</text>
+<text x="457.0" y="350" transform="rotate(25 457.0 350)" font-family="sans-serif" font-size="11">140</text>
+<text x="515.125" y="350" transform="rotate(25 515.125 350)" font-family="sans-serif" font-size="11">240</text>
+<text x="573.25" y="350" transform="rotate(25 573.25 350)" font-family="sans-serif" font-size="11">356</text>
+<text x="631.375" y="350" transform="rotate(25 631.375 350)" font-family="sans-serif" font-size="11">366</text>
+<text x="689.5" y="350" transform="rotate(25 689.5 350)" font-family="sans-serif" font-size="11">367</text>
+<text x="747.625" y="350" transform="rotate(25 747.625 350)" font-family="sans-serif" font-size="11">368</text>
+<text x="805.75" y="350" transform="rotate(25 805.75 350)" font-family="sans-serif" font-size="11">220</text>
+<text x="863.875" y="350" transform="rotate(25 863.875 350)" font-family="sans-serif" font-size="11">153</text>
+<text x="922.0" y="350" transform="rotate(25 922.0 350)" font-family="sans-serif" font-size="11">260</text>
+<text x="980.125" y="350" transform="rotate(25 980.125 350)" font-family="sans-serif" font-size="11">Other IDs</text>
+</svg>

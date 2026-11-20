@@ -7,7 +7,7 @@ Lab 02의 Python 가상환경을 대상으로 소프트웨어 구성 분석(SCA)
 
 ## 설치 패키지와 SBOM
 
-가상환경의 `pip freeze --all`, [저장된 설치 목록](evidence/20261120-054107/pip-list.txt), 두 SBOM의 PyPI 패키지 이름과 버전이 일치했다. `typing_extensions`는 SBOM에서 `typing-extensions`로 표기됐다.
+가상환경의 `pip freeze --all` 출력과 두 SBOM의 PyPI 패키지 이름과 버전이 일치했다. 설치 목록 원본은 로컬의 `evidence/20261120-054107/pip-list.txt`에 보관했고, 공개용 SBOM은 아래 검사 결과 표에 연결했다. `typing_extensions`는 SBOM에서 `typing-extensions`로 표기됐다.
 
 | 패키지 | 버전 |
 | --- | --- |
